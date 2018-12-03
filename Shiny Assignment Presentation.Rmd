@@ -1,0 +1,37 @@
+---
+title: "Shiny Assignment"
+author: "Himakar Prattipati"
+date: "December 2, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Dataset
+
+For this assignment, we are going to use AirPassengers data that comes with R datasets package.
+
+AirPassengers dataset contains data of Monthly Airlines passengers from 1949 to 1960
+
+## Shiny Application
+
+In this application, a plot will be displayed of Monthly Airline passenger data.
+
+User has to select maximum year in the left slider and plot will display airline passenger data starting from 1949 till the selected year
+
+## Application Source Code
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Data
+
+Please find the data used for the assignment
+
+```{r pressure}
+AirPassengers
+```
+
